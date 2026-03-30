@@ -2388,7 +2388,7 @@
             };
             const eventDateInfo = Utils.getEventDateInfo(app.currentEvent.startDateTime);
 
-            document.title = `${app.currentEvent.name}礼金记录{partIndex ? "-P" + partIndex : ""}-${eventDateInfo.localeDate}`;
+            document.title = `${app.currentEvent.name}礼金记录${partIndex ? "-P" + partIndex : ""}-${eventDateInfo.localeDate}`;
 
             // 封面页
             if (printOptions.printCover) {
